@@ -1,0 +1,21 @@
+{
+  "name": "ukwsc/digital_ocean_api",
+  "description": "A wrapper API for the digital ocean platform.",
+  "keywords": ["digital", "ocean", "droplet", "backup", "automation"],
+  "license": "APACHE",
+  "authors": [
+    {
+      "name": "Nicholas Ashley",
+      "email": "nicholas@ukwsc.com"
+    }
+  ],
+  "type": "project",
+  "require": {
+    "php": ">=7.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "UKWSC\\DigitalOcean\\": "src/"
+    }
+  }
+}
